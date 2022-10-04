@@ -2,10 +2,7 @@
 import math
 
 
-math
-
 """
-
 1.  math.ceil(7.15)
 2.  math.floor(19.156)
 3.  math.fabs(-42)
@@ -17,16 +14,16 @@ math
 9.  math.gcd(111111111, 12321)
 10. math.sin(0)
  
-
- 1: 7.15, 8
- 2: 0, 19
+My expectations and incorrect results.
+ 1: 8
+ 2: 19
  3: 42
  4: 8
- 5: 1
+ 5: 1  -------> Incorrect: Answer was 2
  6: 3 
- 7: 1.41421356237
+ 7: 1.41421356237 -------> Incorrect: Rounded down to 1
  8: 120
- 9: Math is hard
+ 9: Math is hard -------> Too lazy to do the math :)
  10: 0
 """
 a = math.ceil(7.15)

@@ -23,5 +23,4 @@
 print("I'm a happy camper!)
  # Before Running Code: This will be a syntax error because 1st, there is not quote to end the print statement, and 2nd, 
  # the ' starts a string which also isn't completed. 
-
- # After Running Code: 
+ # After Running Code: It was a syntax error because I didn't terminate the string.
